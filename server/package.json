@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "resume uploder with tags",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.26.2",
+    "docxtemplater": "^3.22.5",
+    "fastify": "^3.19.2",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.12",
+    "pdfkit": "^0.12.1",
+    "pizzip": "^3.0.6"
+  }
+}
