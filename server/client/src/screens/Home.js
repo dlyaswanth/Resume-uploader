@@ -23,7 +23,7 @@ function Home()
                 <GoogleLogin 
                 className="googlelogin"
                 width='800px'
-                clientId='107991574446-vmvbd18423jkkl49cgsqmvuqjdjr00l6.apps.googleusercontent.com'
+                clientId='' //use user client id 
                 buttonText='Login with Google'
                 onSuccess={()=>login()}
                 onFailure={()=>failure()}
